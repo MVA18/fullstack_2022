@@ -1,0 +1,10 @@
+browser->server: HTTP POST https://studies.cs.helsinki.fi/exampleapp/new_note_spa
+note over browser:
+browser does a POST request to server JSON is {"content":"user-input","date":"current-date-time"}
+end note
+note over server:
+server stores user-input and returns with message that note was added
+end note
+note over browser:
+adds note to list of notes
+end note
