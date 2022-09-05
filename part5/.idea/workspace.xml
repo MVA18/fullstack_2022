@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="dd4a1a36-5dfd-4ae9-ad1d-dc5c0699fbae" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/blogs-frontend/src/components/BlogForm.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blogs-frontend/src/components/Blogs.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blogs-frontend/src/components/Filter.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blogs-frontend/src/components/LoginForm.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blogs-frontend/src/components/Notification.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blogs-frontend/src/components/Togglable.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blogs-frontend/src/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blogs-frontend/src/services/login.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../part3/part3-persons/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../part3/part3-persons/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../part3/part3-persons/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blogs-backend/.env" beforeDir="false" afterPath="$PROJECT_DIR$/blogs-backend/.env" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blogs-backend/.eslintrc.js" beforeDir="false" afterPath="$PROJECT_DIR$/blogs-backend/.eslintrc.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blogs-backend/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/blogs-backend/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blogs-backend/controllers/blogs.js" beforeDir="false" afterPath="$PROJECT_DIR$/blogs-backend/controllers/blogs.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blogs-backend/controllers/notes.js" beforeDir="false" afterPath="$PROJECT_DIR$/blogs-backend/controllers/notes.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blogs-backend/models/blog.js" beforeDir="false" afterPath="$PROJECT_DIR$/blogs-backend/models/blog.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blogs-backend/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/blogs-backend/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blogs-backend/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/blogs-backend/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blogs-backend/tests/blogList.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/blogs-backend/tests/blogList.test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blogs-backend/utils/config.js" beforeDir="false" afterPath="$PROJECT_DIR$/blogs-backend/utils/config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blogs-backend/utils/list_helper.js" beforeDir="false" afterPath="$PROJECT_DIR$/blogs-backend/utils/list_helper.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blogs-backend/utils/logger.js" beforeDir="false" afterPath="$PROJECT_DIR$/blogs-backend/utils/logger.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blogs-backend/utils/middleware.js" beforeDir="false" afterPath="$PROJECT_DIR$/blogs-backend/utils/middleware.js" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2CFjK3dNXT7NETdWu76U0rtJxnP" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "/home/mva18/Projects/Outermedia/divomath",
+    "node.js.detected.package.eslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/blogs-frontend/src/components" />
+      <recent name="$PROJECT_DIR$/blogs-frontend" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/blogs-frontend/src" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="dd4a1a36-5dfd-4ae9-ad1d-dc5c0699fbae" name="Changes" comment="" />
+      <created>1658405159758</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1658405159758</updated>
+      <workItem from="1658405161450" duration="227000" />
+      <workItem from="1658516441096" duration="132000" />
+      <workItem from="1658994117611" duration="10530000" />
+      <workItem from="1659011496395" duration="8378000" />
+      <workItem from="1659023893417" duration="29000" />
+      <workItem from="1659031974868" duration="609000" />
+      <workItem from="1659078392010" duration="8000" />
+      <workItem from="1661955537878" duration="2478000" />
+      <workItem from="1662015490700" duration="790000" />
+      <workItem from="1662024119974" duration="1281000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
