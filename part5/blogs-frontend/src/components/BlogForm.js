@@ -1,7 +1,6 @@
-import {useState} from "react";
-import blogsService from "../services/blogs";
+import {useState} from 'react'
 
-const BlogForm = ({blogFormRef, blogs, setBlogs, setNotificationMessage}) => {
+const BlogForm = ({blogFormRef, createBlog}) => {
 
     const [newTitle, setNewTitle] = useState('')
     const [newAuthor, setNewAuthor] = useState('')
@@ -19,8 +18,9 @@ const BlogForm = ({blogFormRef, blogs, setBlogs, setNotificationMessage}) => {
     const handleUrlChange = (event) => { setNewUrl(event.target.value) }
 
     const addBlog = (event) => {
-        blogFormRef.current.toggleVisibility()
         event.preventDefault()
+
+        blogFormRef.current.toggleVisibility()
 
         const blogObject = {
             title: newTitle,
@@ -28,12 +28,8 @@ const BlogForm = ({blogFormRef, blogs, setBlogs, setNotificationMessage}) => {
             url: newUrl
         }
 
-        blogsService.create(blogObject).then(returnedPerson => {
-            setBlogs(blogs.concat(returnedPerson))
-            setNotificationMessage({message:`Blog '${blogObject.title}' was successfully added by '${blogObject.author}'`, type: 'success'})
-            setTimeout(() => { setNotificationMessage({message : null, type : null}) },5000)
-            resetState()
-        })
+        createBlog(blogObject)
+        resetState()
     }
 
     return(
@@ -41,13 +37,13 @@ const BlogForm = ({blogFormRef, blogs, setBlogs, setNotificationMessage}) => {
             <h2>Create a new blog</h2>
             <form onSubmit={addBlog}>
                 <div>
-                    title: <input onChange={handleTitleChange} value={newTitle}/>
+                    title: <input onChange={handleTitleChange} value={newTitle} placeholder='write blog title here'/>
                 </div>
                 <div>
-                    author: <input onChange={handleAuthorChange} value={newAuthor} />
+                    author: <input onChange={handleAuthorChange} value={newAuthor} placeholder='write blog author here'/>
                 </div>
                 <div>
-                    url: <input onChange={handleUrlChange} value={newUrl} />
+                    url: <input onChange={handleUrlChange} value={newUrl}  placeholder='write blog url here'/>
                 </div>
                 <div>
                     <button type="submit">add</button>
@@ -57,4 +53,4 @@ const BlogForm = ({blogFormRef, blogs, setBlogs, setNotificationMessage}) => {
     )
 }
 
-export default BlogForm;
+export default BlogForm

@@ -4,8 +4,8 @@ const Filter = ({blogs, setFilteredBlogs, setSearch}) => {
     {
         const filteredBlogs = blogs.filter(blog => {
             return blog.title.toLowerCase().includes(event.target.value.toLowerCase())
-        });
-        setFilteredBlogs(filteredBlogs);
+        })
+        setFilteredBlogs(filteredBlogs)
         setSearch(true)
     }
 
