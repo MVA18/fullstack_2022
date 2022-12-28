@@ -1,6 +1,7 @@
 describe('Create new Blog', function () {
     describe('when logged in', function () {
         beforeEach(function () {
+            cy.resetDB()
             cy.login({ username: 'mluukkai', password: 'salainen' })
         })
 

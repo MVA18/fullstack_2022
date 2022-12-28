@@ -25,7 +25,7 @@ const Blog = ({blog, removeBlog, updateState}) => {
     }
 
     return (
-        <div style={ blogStyle }>
+        <div className={'blog'} style={ blogStyle }>
             { newBlog.title }
             <Togglable buttonLabel='view' buttonCancel='hide'>
                 <div>
