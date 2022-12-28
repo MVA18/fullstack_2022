@@ -37,16 +37,16 @@ const BlogForm = ({blogFormRef, createBlog}) => {
             <h2>Create a new blog</h2>
             <form onSubmit={addBlog}>
                 <div>
-                    title: <input onChange={handleTitleChange} value={newTitle} placeholder='write blog title here'/>
+                    title: <input id='input_blog_title' onChange={handleTitleChange} value={newTitle} placeholder='write blog title here'/>
                 </div>
                 <div>
-                    author: <input onChange={handleAuthorChange} value={newAuthor} placeholder='write blog author here'/>
+                    author: <input id='input_blog_author' onChange={handleAuthorChange} value={newAuthor} placeholder='write blog author here'/>
                 </div>
                 <div>
-                    url: <input onChange={handleUrlChange} value={newUrl}  placeholder='write blog url here'/>
+                    url: <input id='input_blog_url' onChange={handleUrlChange} value={newUrl}  placeholder='write blog url here'/>
                 </div>
                 <div>
-                    <button type="submit">add</button>
+                    <button id='btn_create_blog' type="submit">add</button>
                 </div>
             </form>
         </div>
