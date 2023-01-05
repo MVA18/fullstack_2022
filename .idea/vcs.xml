@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="VcsDirectoryMappings">
+    <mapping directory="$PROJECT_DIR$" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/part3/persons-backend" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/part4/blogs-backend" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/part5/blogs-backend" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/part6/redux-anecdotes" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/part6/unicafe-redux" vcs="Git" />
+  </component>
+</project>

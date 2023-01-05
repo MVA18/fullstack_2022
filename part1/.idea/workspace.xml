@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="85f6266a-6281-4d81-b762-9583f61c19c9" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../part5/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../part5/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../part5/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../part5/blogs-backend/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../part5/blogs-backend/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../part5/blogs-backend/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/../part5/blogs-backend/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../part5/blogs-backend/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../part5/blogs-backend/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../part5/blogs-frontend/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/../part5/blogs-frontend/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../part5/blogs-frontend/src/components/Blog.js" beforeDir="false" afterPath="$PROJECT_DIR$/../part5/blogs-frontend/src/components/Blog.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../part5/blogs-frontend/src/components/BlogForm.js" beforeDir="false" afterPath="$PROJECT_DIR$/../part5/blogs-frontend/src/components/BlogForm.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../part5/blogs-frontend/src/components/Blogs.js" beforeDir="false" afterPath="$PROJECT_DIR$/../part5/blogs-frontend/src/components/Blogs.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../part5/blogs-frontend/src/components/Togglable.js" beforeDir="false" afterPath="$PROJECT_DIR$/../part5/blogs-frontend/src/components/Togglable.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../part5/blogs-frontend/src/services/blogs.js" beforeDir="false" afterPath="$PROJECT_DIR$/../part5/blogs-frontend/src/services/blogs.js" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="2EaWiYqHg06ASj74CAwfc7aOh8c" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/mva18/Projects/fullstack/part1&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="85f6266a-6281-4d81-b762-9583f61c19c9" name="Changes" comment="" />
+      <created>1662834302339</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1662834302339</updated>
+      <workItem from="1662834303455" duration="310000" />
+      <workItem from="1670081586039" duration="12000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

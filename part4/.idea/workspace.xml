@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="f58cc277-d8ef-4927-a6b8-f1f443601d62" name="Changes" comment="part 4 complete">
+      <change beforePath="$PROJECT_DIR$/../part5/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../part5/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../part5/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../part5/blogs-backend/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../part5/blogs-backend/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../part5/blogs-backend/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/../part5/blogs-backend/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../part5/blogs-backend/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../part5/blogs-backend/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../part5/blogs-frontend/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/../part5/blogs-frontend/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../part5/blogs-frontend/src/components/Blog.js" beforeDir="false" afterPath="$PROJECT_DIR$/../part5/blogs-frontend/src/components/Blog.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../part5/blogs-frontend/src/components/BlogForm.js" beforeDir="false" afterPath="$PROJECT_DIR$/../part5/blogs-frontend/src/components/BlogForm.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../part5/blogs-frontend/src/components/Blogs.js" beforeDir="false" afterPath="$PROJECT_DIR$/../part5/blogs-frontend/src/components/Blogs.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../part5/blogs-frontend/src/components/Togglable.js" beforeDir="false" afterPath="$PROJECT_DIR$/../part5/blogs-frontend/src/components/Togglable.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../part5/blogs-frontend/src/services/blogs.js" beforeDir="false" afterPath="$PROJECT_DIR$/../part5/blogs-frontend/src/services/blogs.js" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/blogs-backend/app.js" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/blogs-backend/controllers/blogs.js" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/blogs-backend/controllers/notes.js" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/blogs-backend/index.js" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/blogs-backend/models/blog.js" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/blogs-backend/models/note.js" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/blogs-backend/tests/blog_api.test.js" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/blogs-backend/tests/note_api.test.js" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/blogs-backend/tests/test_helper.js" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/blogs-backend/utils/logger.js" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2BNdXyAhLuEBWynzU8HB87HGYfL" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;javascript.nodejs.core.library.configured.version&quot;: &quot;18.8.0&quot;,
+    &quot;javascript.nodejs.core.library.typings.version&quot;: &quot;18.7.16&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/mva18/Projects/fullstack/part4&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs.jest.jest_package&quot;: &quot;/home/mva18/Projects/fullstack/part4/blogs-backend/node_modules/jest&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;/snap/phpstorm/278/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/blogs-backend/tests" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Jest.addition of a new blog.a valid blog cannot be added without token">
+    <configuration name="addition of a new blog.a valid blog can be added" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/blogs-backend/node_modules/jest" />
+      <working-dir value="$PROJECT_DIR$/blogs-backend" />
+      <envs />
+      <scope-kind value="TEST" />
+      <test-file value="$PROJECT_DIR$/blogs-backend/tests/blog_api.test.js" />
+      <test-names>
+        <test-name value="addition of a new blog" />
+        <test-name value="a valid blog can be added" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <configuration name="addition of a new blog.a valid blog cannot be added without token" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/blogs-backend/node_modules/jest" />
+      <working-dir value="$PROJECT_DIR$/blogs-backend" />
+      <envs />
+      <scope-kind value="TEST" />
+      <test-file value="$PROJECT_DIR$/blogs-backend/tests/blog_api.test.js" />
+      <test-names>
+        <test-name value="addition of a new blog" />
+        <test-name value="a valid blog cannot be added without token" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <configuration name="addition of a new blog.if likes property is missing it is set to 0" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/blogs-backend/node_modules/jest" />
+      <working-dir value="$PROJECT_DIR$/blogs-backend" />
+      <envs />
+      <scope-kind value="TEST" />
+      <test-file value="$PROJECT_DIR$/blogs-backend/tests/blog_api.test.js" />
+      <test-names>
+        <test-name value="addition of a new blog" />
+        <test-name value="if likes property is missing it is set to 0" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <configuration name="deletion of a blog" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/blogs-backend/node_modules/jest" />
+      <working-dir value="$PROJECT_DIR$/blogs-backend" />
+      <envs />
+      <scope-kind value="SUITE" />
+      <test-file value="$PROJECT_DIR$/blogs-backend/tests/blog_api.test.js" />
+      <test-names>
+        <test-name value="deletion of a blog" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <configuration name="deletion of a blog.a blog can be deleted" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/blogs-backend/node_modules/jest" />
+      <working-dir value="$PROJECT_DIR$/blogs-backend" />
+      <envs />
+      <scope-kind value="TEST" />
+      <test-file value="$PROJECT_DIR$/blogs-backend/tests/blog_api.test.js" />
+      <test-names>
+        <test-name value="deletion of a blog" />
+        <test-name value="a blog can be deleted" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Jest.addition of a new blog.a valid blog cannot be added without token" />
+        <item itemvalue="Jest.deletion of a blog.a blog can be deleted" />
+        <item itemvalue="Jest.addition of a new blog.if likes property is missing it is set to 0" />
+        <item itemvalue="Jest.addition of a new blog.a valid blog can be added" />
+        <item itemvalue="Jest.deletion of a blog" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f58cc277-d8ef-4927-a6b8-f1f443601d62" name="Changes" comment="" />
+      <created>1656750520923</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1656750520923</updated>
+      <workItem from="1656750522054" duration="13133000" />
+      <workItem from="1657653869814" duration="5084000" />
+      <workItem from="1657726043609" duration="13137000" />
+      <workItem from="1658254662535" duration="8173000" />
+      <workItem from="1662755225111" duration="14000" />
+      <workItem from="1670079760092" duration="8000" />
+      <workItem from="1670083484970" duration="50000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="part 4 complete" />
+    <option name="LAST_COMMIT_MESSAGE" value="part 4 complete" />
+  </component>
+</project>
