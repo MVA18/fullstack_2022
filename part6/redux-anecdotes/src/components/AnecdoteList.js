@@ -5,11 +5,18 @@ import { showNotificationWithTimeout } from "../actions/showNotificationWithTime
 const AnecdoteList = () => {
 
     const dispatch = useDispatch()
-    const anecdotes = useSelector(({anecdotes}) => {
+    const anecdotes = useSelector((state => {
+        let anecdotes = state.anecdotes
+        if(state.filter)
+        {
+            anecdotes = state.anecdotes.filter(anecdote => {
+                return anecdote.content.toLowerCase().includes(state.filter.toLowerCase())
+            })
+        }
         return anecdotes.slice().sort(function (a, b) {
             return b['votes'] - a['votes']
         })
-    })
+    }))
 
     const vote = (anecdote) => {
         dispatch(upvote(anecdote.id))
