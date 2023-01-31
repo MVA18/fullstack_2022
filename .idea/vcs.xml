@@ -4,6 +4,7 @@
     <mapping directory="$PROJECT_DIR$" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/part3/persons-backend" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/part4/blogs-backend" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/part4/persons-backend" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/part6/redux-anecdotes" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/part7/routed-anecdotes" vcs="Git" />
   </component>
 </project>
