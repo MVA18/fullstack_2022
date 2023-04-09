@@ -1,6 +1,4 @@
 const Anecdote = ({ anecdote }) => {
-    return (
-        <li key={ anecdote.id }>{ anecdote.content }</li>
-    )
-}
-export default Anecdote
+  return <li key={anecdote.id}>{anecdote.content}</li>;
+};
+export default Anecdote;
