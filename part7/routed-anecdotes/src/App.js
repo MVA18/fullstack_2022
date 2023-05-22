@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { Routes, Route, useMatch, useNavigate } from "react-router-dom";
 import Footer from "./components/Footer";
 import Menu from "./components/Menu";
@@ -6,8 +6,12 @@ import AnecdoteList from "./components/AnecdoteList";
 import CreateNew from "./components/CreateNew";
 import About from "./components/About";
 import Anecdote from "./components/Anecdote";
+import { setNotification } from "./reducers/notificationReducer";
+import Notification from "./components/Notification";
+import { useDispatch } from 'react-redux'
 
 const App = () => {
+
   const [anecdotes, setAnecdotes] = useState([
     {
       content: "If it hurts, do it more often",
@@ -25,8 +29,6 @@ const App = () => {
     },
   ]);
 
-  const [notification, setNotification] = useState("");
-
   const match = useMatch("/anecdotes/:id");
   const anecdote = match
     ? anecdotes.find((anecdote) => anecdote.id === Number(match.params.id))
@@ -35,12 +37,13 @@ const App = () => {
   const navigate = useNavigate();
 
   const addNew = (anecdote) => {
-    anecdote.id = Math.round(Math.random() * 10000);
-    setAnecdotes(anecdotes.concat(anecdote));
-    setNotification(`Anecdote ${anecdote.content} created`);
-    setTimeout(() => {
-      setNotification("");
-    }, 5000);
+    anecdote.id = Math.round(Math.random() * 10000)
+    setAnecdotes(anecdotes.concat(anecdote))
+    setNotification(`Anecdote ${anecdote.content} created`, 5000)
+    // setNotification(`Anecdote ${anecdote.content} created`);
+    // setTimeout(() => {
+    //   setNotification("");
+    // }, 5000);
     navigate("/anecdotes");
   };
 
@@ -59,7 +62,7 @@ const App = () => {
 
   return (
     <div>
-      <div>{notification}</div>
+      <div><Notification /></div>
       <h1>Software anecdotes</h1>
       <div>
         <Menu />

@@ -1,39 +1,19 @@
 {
-  "notes": [
+  "blogs": [
     {
       "id": 1,
-      "content": "custom hooks are awesome"
+      "content": "custom hooks are awesome",
+      "user_id": 1,
+      "votes": 4
     },
     {
       "id": 2,
-      "content": "best feature ever <3"
-    },
-    {
-      "content": "note",
-      "id": 3
-    },
-    {
-      "content": "test",
-      "id": 4
-    },
-    {
-      "content": "testd",
-      "id": 5
-    },
-    {
-      "content": "testdd",
-      "id": 6
-    },
-    {
-      "content": "sdas",
-      "id": 7
-    },
-    {
-      "content": "asda",
-      "id": 8
+      "content": "best feature ever <3",
+      "user_id": 1,
+      "votes": 6
     }
   ],
-  "persons": [
+  "users": [
     {
       "id": 1,
       "name": "Matti Luukkainen",
