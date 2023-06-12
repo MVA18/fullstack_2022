@@ -5,29 +5,62 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dd4a1a36-5dfd-4ae9-ad1d-dc5c0699fbae" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blogs-frontend/.eslintignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blogs-frontend/.eslintrc.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blogs-frontend/src/components/Blog.test.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blogs-frontend/src/components/BlogForm.test.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../fullstack_2022/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../part7/blogs-backend/.eslintignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../part7/blogs-backend/.eslintrc.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../part7/blogs-backend/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../part7/blogs-backend/Procfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../part7/blogs-backend/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../part7/blogs-backend/app.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../part7/blogs-backend/controllers/blogs.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../part7/blogs-backend/controllers/login.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../part7/blogs-backend/controllers/notes.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../part7/blogs-backend/controllers/users.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../part7/blogs-backend/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../part7/blogs-backend/models/blog.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../part7/blogs-backend/models/user.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../part7/blogs-backend/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../part7/blogs-backend/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../part7/blogs-backend/tests/average.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../part7/blogs-backend/tests/blogList.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../part7/blogs-backend/tests/blog_api.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../part7/blogs-backend/tests/reverse.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../part7/blogs-backend/tests/test_helper.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../part7/blogs-backend/tests/user_api.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../part7/blogs-backend/utils/config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../part7/blogs-backend/utils/for_testing.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../part7/blogs-backend/utils/list_helper.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../part7/blogs-backend/utils/logger.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../part7/blogs-backend/utils/middleware.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../part7/blogs-frontend/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../part7/blogs-frontend/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../part7/blogs-frontend/db.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../part7/blogs-frontend/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../part7/blogs-frontend/public/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../part7/blogs-frontend/public/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../part7/blogs-frontend/public/logo192.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../part7/blogs-frontend/public/logo512.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../part7/blogs-frontend/public/manifest.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../part7/blogs-frontend/public/robots.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../part7/blogs-frontend/src/App.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../part7/blogs-frontend/src/components/BlogForm.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../part7/blogs-frontend/src/components/BlogList.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../part7/blogs-frontend/src/components/Filter.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../part7/blogs-frontend/src/components/LoginForm.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../part7/blogs-frontend/src/components/LoginPage.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../part7/blogs-frontend/src/components/Notification.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../part7/blogs-frontend/src/components/UsersList.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../part7/blogs-frontend/src/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../part7/blogs-frontend/src/reducers/blogsReducer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../part7/blogs-frontend/src/reducers/filterReducer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../part7/blogs-frontend/src/reducers/loginReducer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../part7/blogs-frontend/src/reducers/notificationReducer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../part7/blogs-frontend/src/reducers/usersReducer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../part7/blogs-frontend/src/services/blogs.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../part7/blogs-frontend/src/services/login.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../part7/blogs-frontend/src/services/users.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../part7/blogs-frontend/src/store.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blogs-backend/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/blogs-backend/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blogs-backend/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/blogs-backend/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blogs-backend/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/blogs-backend/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blogs-frontend/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/blogs-frontend/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blogs-frontend/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/blogs-frontend/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blogs-frontend/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/blogs-frontend/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blogs-frontend/src/components/Blog.js" beforeDir="false" afterPath="$PROJECT_DIR$/blogs-frontend/src/components/Blog.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blogs-frontend/src/components/BlogForm.js" beforeDir="false" afterPath="$PROJECT_DIR$/blogs-frontend/src/components/BlogForm.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blogs-frontend/src/components/Blogs.js" beforeDir="false" afterPath="$PROJECT_DIR$/blogs-frontend/src/components/Blogs.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blogs-frontend/src/components/Filter.js" beforeDir="false" afterPath="$PROJECT_DIR$/blogs-frontend/src/components/Filter.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blogs-frontend/src/components/LoginForm.js" beforeDir="false" afterPath="$PROJECT_DIR$/blogs-frontend/src/components/LoginForm.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blogs-frontend/src/components/Togglable.js" beforeDir="false" afterPath="$PROJECT_DIR$/blogs-frontend/src/components/Togglable.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blogs-frontend/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/blogs-frontend/src/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blogs-frontend/src/services/blogs.js" beforeDir="false" afterPath="$PROJECT_DIR$/blogs-frontend/src/services/blogs.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,6 +83,7 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP 7.4" />
   <component name="ProjectId" id="2CFjK3dNXT7NETdWu76U0rtJxnP" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -57,27 +91,27 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "javascript.nodejs.core.library.configured.version": "18.12.1",
-    "javascript.nodejs.core.library.typings.version": "18.11.13",
-    "last_opened_file_path": "/home/mva18/Projects/Outermedia/memobase-portal",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.standard": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.standard": "",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs.jest.jest_package": "/home/mva18/Projects/fullstack/part5/blogs-frontend/node_modules/react-scripts",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings",
-    "ts.external.directory.path": "/snap/phpstorm/307/plugins/javascript-impl/jsLanguageServicesImpl/external",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;javascript.nodejs.core.library.configured.version&quot;: &quot;20.2.0&quot;,
+    &quot;javascript.nodejs.core.library.typings.version&quot;: &quot;20.2.0&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/mva18/Projects/fullstack_2022/part5&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.standard&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.standard&quot;: &quot;&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs.jest.jest_package&quot;: &quot;/home/mva18/Projects/fullstack/part5/blogs-frontend/node_modules/react-scripts&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.DirectoryMappings&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;/snap/phpstorm/307/plugins/javascript-impl/jsLanguageServicesImpl/external&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/blogs-frontend/src/components" />
@@ -90,7 +124,6 @@
   <component name="RunManager" selected="Jest.&lt;BlogForm /&gt; updates parent state and calls onSubmit">
     <configuration name="Toggle component shows and hides correct content" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
       <node-interpreter value="project" />
-      <node-options value="" />
       <jest-package value="$PROJECT_DIR$/blogs-frontend/node_modules/react-scripts" />
       <working-dir value="$PROJECT_DIR$/blogs-frontend" />
       <envs />
@@ -103,7 +136,6 @@
     </configuration>
     <configuration name="&lt;BlogForm /&gt; updates parent state and calls onSubmit" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
       <node-interpreter value="project" />
-      <node-options value="" />
       <jest-package value="$PROJECT_DIR$/blogs-frontend/node_modules/react-scripts" />
       <working-dir value="$PROJECT_DIR$/blogs-frontend" />
       <envs />
@@ -116,7 +148,6 @@
     </configuration>
     <configuration name="blog like button working" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
       <node-interpreter value="project" />
-      <node-options value="" />
       <jest-package value="$PROJECT_DIR$/blogs-frontend/node_modules/react-scripts" />
       <working-dir value="$PROJECT_DIR$/blogs-frontend" />
       <envs />
@@ -129,7 +160,6 @@
     </configuration>
     <configuration name="renders blog component" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
       <node-interpreter value="project" />
-      <node-options value="" />
       <jest-package value="$PROJECT_DIR$/blogs-frontend/node_modules/react-scripts" />
       <working-dir value="$PROJECT_DIR$/blogs-frontend" />
       <envs />
@@ -189,6 +219,9 @@
       <workItem from="1670401662467" duration="613000" />
       <workItem from="1670764459980" duration="13461000" />
       <workItem from="1670831852636" duration="18000" />
+      <workItem from="1685114314977" duration="1312000" />
+      <workItem from="1686301311647" duration="3772000" />
+      <workItem from="1686495872446" duration="1652000" />
     </task>
     <servers />
   </component>
