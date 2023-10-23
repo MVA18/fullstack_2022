@@ -1,50 +1,61 @@
-import React, { useEffect } from "react";
-import BlogForm from "./components/BlogForm";
-import BlogList from "./components/BlogList";
-import UsersList from "./components/UsersList";
-import Filter from "./components/Filter";
-import { initializeBlogs } from "./reducers/blogsReducer";
-import { initializeUsers } from "./reducers/usersReducer";
-import { connect, useDispatch } from "react-redux";
-import Notification from "./components/Notification";
+import React from "react";
+import {
+  BrowserRouter as Router,
+  Routes, Route, Link
+} from "react-router-dom";
+import { connect } from "react-redux";
 import { logout } from "./reducers/loginReducer";
+import Blogs from "./components/Blogs";
+import Blog from "./components/Blog";
+import UsersList from "./components/UsersList";
+import UserBlogsList from "./components/UserBlogsList";
+import BlogForm from "./components/BlogForm";
 
 const App = (props) => {
+
   const handleLogout = () => {
     localStorage.removeItem("loggedBlogappUser");
     window.location.href = "/";
     props.logout();
   };
 
-  const dispatch = useDispatch();
-  useEffect(() => {
-    dispatch(initializeBlogs());
-    dispatch(initializeUsers());
-  }, [dispatch]);
+  if (props.loggedInUser) {
 
-  return (
-    <div>
-      <p>{ props.loggedInUser.name } logged-in
-        <button onClick={ handleLogout }>
-          logout
-        </button>
-      </p>
-      <Notification />
-      <h2>Blogs</h2>
-      <Filter />
-      <BlogList />
-      <BlogForm />
-      <h2>Users</h2>
-      <UsersList />
-    </div>
-  );
+    const padding = {
+      padding: 5
+    };
+
+    return (
+      <Router>
+        <p>{ props.loggedInUser.name } logged-in
+          <button onClick={ handleLogout }>
+            logout
+          </button>
+        </p>
+        <div>
+          <Link style={ padding } to="/blogs">blogs</Link>
+          <Link style={ padding } to="/create">create blog</Link>
+          <Link style={ padding } to="/users">users</Link>
+        </div>
+
+        <Routes>
+          <Route path="/blogs" element={ <Blogs /> } />
+          <Route path="/blog/:id" element={ <Blog /> } />
+          <Route path="/users" element={ <UsersList /> } />
+          <Route path="/create" element={ <BlogForm /> } />
+          <Route path="/user/:id" element={ <UserBlogsList />} />
+          {/*<Route path="/" element={<Home />} />*/ }
+        </Routes>
+      </Router>
+    );
+  }
 };
 
 const mapStateToProps = (state) => {
   return {
-    loggedInUser: state.loggedInUser,
-  }
-}
+    loggedInUser: state.loggedInUser
+  };
+};
 
 const mapDispatchToProps = {
   logout

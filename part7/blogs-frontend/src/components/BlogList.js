@@ -1,29 +1,35 @@
-import { connect } from 'react-redux';
-import { upvoteBlog } from '../reducers/blogsReducer'
-import { removeBlog } from '../reducers/blogsReducer'
+import { connect, useDispatch } from "react-redux";
+import { initializeBlogs, removeBlog, likeBlog } from '../reducers/blogsReducer'
 import { setNotification } from '../reducers/notificationReducer';
+import { useEffect } from "react";
 
 const BlogList = (props) => {
+
+    const dispatch = useDispatch();
+    const like = (blog) => {
+        dispatch(likeBlog(blog));
+        dispatch(setNotification(`you voted '${blog.title}'`, 5000));
+    }
+
+    useEffect(() => {
+        dispatch(initializeBlogs());
+    }, [dispatch, setNotification]);
+
+
     const blogs = () => {
         let blogs = props.blogs
         if (props.filter) {
             blogs = props.blogs.filter(blog => {
-                return blog.content.toLowerCase().includes(props.filter.toLowerCase())
+                return blog.title.toLowerCase().includes(props.filter.toLowerCase())
             })
         }
         return blogs.slice().sort(function (a, b) {
-            return b['votes'] - a['votes']
+            return b['likes'] - a['likes']
         })
     }
 
-    const vote = (blog) => {
-        props.upvoteBlog(blog)
-        props.setNotification(`you voted '${ blog.content }'`, 5000)
-    }
-
     const remove = (blog) => {
-        props.removeBlog(blog)
-        props.setNotification(`you deleted '${ blog.content }'`, 5000)
+        dispatch(removeBlog(blog));
     }
 
     return (
@@ -34,8 +40,8 @@ const BlogList = (props) => {
                         { blog.title }
                     </div>
                     <div>
-                        has { blog.votes }
-                        <button onClick={ () => vote(blog) }>vote</button>
+                        has { blog.likes }
+                        <button onClick={ () => like(blog) }>like</button>
                         <button onClick={ () => remove(blog) }>delete</button>
                     </div>
                 </div>
@@ -52,9 +58,10 @@ const mapStateToProps = (state) => {
 }
 
 const mapDispatchToProps = {
-    upvoteBlog,
+    likeBlog,
     removeBlog,
     setNotification,
+    initializeBlogs
 }
 
 const ConnectedBlogList = connect(mapStateToProps, mapDispatchToProps)(BlogList)

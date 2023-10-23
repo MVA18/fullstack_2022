@@ -7,18 +7,17 @@ import { set } from "../reducers/loginReducer";
 
 const LoginPage = (props) => {
   useEffect(() => {
-    const loggedUserJSON = window.localStorage.getItem('loggedBlogappUser');
-    console.log(JSON.parse(loggedUserJSON))
-    if (loggedUserJSON) {
-      const user = JSON.parse(loggedUserJSON);
-      props.set(user);
-      loginService.setToken(user.token);
-    }
+      const loggedUserJSON = window.localStorage.getItem('loggedBlogappUser');
+      if (loggedUserJSON) {
+        const user = JSON.parse(loggedUserJSON);
+        props.set(user);
+        loginService.setToken(user.token);
+      }
   }, []);
 
   return (
     <>
-      { props.loggedInUser.token === null ? (
+      { props.loggedInUser && props.loggedInUser.token === null ? (
         <LoginForm />
       ) : <App></App> }
     </>
