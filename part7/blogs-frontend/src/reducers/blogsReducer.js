@@ -32,11 +32,11 @@ const blogSlice = createSlice({
     },
     set(state, action) {
       return action.payload;
-    }
+    },
   }
 });
 
-export const { create, like, remove, set } = blogSlice.actions;
+export const { create, set, remove } = blogSlice.actions;
 
 export const initializeBlogs = () => {
   return async dispatch => {
@@ -52,17 +52,7 @@ export const createNewBlog = (request) => {
   };
 };
 
-export const likeBlog = blog => {
-  return async dispatch => {
-    let updateBlog = { ...blog };
-    updateBlog.votes++;
-    await blogService.like(updateBlog).then((blog) => {
-      dispatch(like(blog));
-    });
-  };
-};
-
-export const removeBlog = blog => {
+export const removeBlog = (blog) => {
   return async dispatch => {
     let removeBlog = { ...blog }
     await blogService.remove(removeBlog).then((blogId) => {

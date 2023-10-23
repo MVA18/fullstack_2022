@@ -1,15 +1,12 @@
 import { connect, useDispatch } from "react-redux";
-import { initializeBlogs, removeBlog, likeBlog } from '../reducers/blogsReducer'
+import { initializeBlogs } from '../reducers/blogsReducer'
 import { setNotification } from '../reducers/notificationReducer';
 import { useEffect } from "react";
+import { Link } from "react-router-dom";
 
 const BlogList = (props) => {
 
     const dispatch = useDispatch();
-    const like = (blog) => {
-        dispatch(likeBlog(blog));
-        dispatch(setNotification(`you voted '${blog.title}'`, 5000));
-    }
 
     useEffect(() => {
         dispatch(initializeBlogs());
@@ -28,21 +25,12 @@ const BlogList = (props) => {
         })
     }
 
-    const remove = (blog) => {
-        dispatch(removeBlog(blog));
-    }
-
     return (
         <ul>
             { blogs().map(blog =>
                 <div key={ blog.id }>
                     <div>
-                        { blog.title }
-                    </div>
-                    <div>
-                        has { blog.likes }
-                        <button onClick={ () => like(blog) }>like</button>
-                        <button onClick={ () => remove(blog) }>delete</button>
+                        <Link to={`/blog/${blog.id}`}>{blog.title}</Link>
                     </div>
                 </div>
             ) }
@@ -58,9 +46,6 @@ const mapStateToProps = (state) => {
 }
 
 const mapDispatchToProps = {
-    likeBlog,
-    removeBlog,
-    setNotification,
     initializeBlogs
 }
 

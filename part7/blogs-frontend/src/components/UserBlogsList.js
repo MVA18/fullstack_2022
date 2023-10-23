@@ -7,9 +7,9 @@ const UserBlogsList = (props) => {
   const userId = useParams().id;
 
   const dispatch = useDispatch();
+
   useEffect(() => {
     dispatch(getUser(userId));
-
   }, [dispatch]);
 
   const title = {
