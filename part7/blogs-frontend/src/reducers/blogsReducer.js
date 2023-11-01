@@ -6,18 +6,6 @@ const blogSlice = createSlice({
   name: "blogs",
   initialState: [],
   reducers: {
-    like(state, action) {
-      state = state.map(blog => {
-        if (blog.id === action.payload.id) {
-          return {
-            ...blog,
-            likes: blog.likes + 1
-          };
-        }
-        return blog;
-      });
-      return state;
-    },
     create(state, action) {
       state.push(action.payload);
     },

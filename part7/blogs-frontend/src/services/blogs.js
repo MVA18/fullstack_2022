@@ -43,13 +43,23 @@ const getBlog = async (blogId) => {
   return response.data;
 };
 
+const addComment = async (blog, comment, user) => {
+  const response = await axios.post(
+    baseUrl + "/comments",
+    {   blog: blog, comment: comment, user: user  },
+    getHeaders()
+  );
+  return response.data;
+};
+
 
 const blogService = {
   getAll,
   getBlog,
   createNew,
   like,
-  remove
+  remove,
+  addComment
 };
 
 export default blogService;
