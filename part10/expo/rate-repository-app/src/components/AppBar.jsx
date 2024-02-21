@@ -4,9 +4,9 @@ import Text from './Text';
 
 const styles = StyleSheet.create({
     text: {
-    paddingTop: Constants.statusBarHeight + '25px',
-    alignItems: 'left',
-    padding: '25px',
+    paddingTop: Constants.statusBarHeight + 25,
+    textAlign: 'left',
+    padding: 25,
     color: 'white',
     backgroundColor: '#24292e'
   },

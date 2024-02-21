@@ -48,15 +48,10 @@ const repositories = [
   },
 ];
 
-const styles = StyleSheet.create({
-  flexContainer: {
-  },
-});
-
 const RepositoryList = () => {
   return (
     <FlatList
-      style={styles.flexContainer}
+      contentContainerStyle={{}}
       data={repositories}
       renderItem={({ item }) => <RepositoryItem person={item} />}
       keyExtractor={(item) => item.id}

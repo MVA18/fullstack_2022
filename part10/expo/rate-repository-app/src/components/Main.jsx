@@ -5,16 +5,19 @@ import RepositoryList from './RepositoryList';
 const styles = StyleSheet.create({
   container: {
     backgroundColor: 'grey',
-    flexGrow: 1
+    flexGrow: 1,
+    flex: 1,
   },
 });
 
 const Main = () => {
   return (
+    <>
+    <AppBar/>
     <View style={styles.container}>
-      <AppBar/>
       <RepositoryList/>
     </View>
+    </>
   );
 };
 

@@ -8,10 +8,12 @@ const styles = StyleSheet.create({
     margin: 20,
     padding: 20,
     backgroundColor: 'white',
+    maxWidth: 440,
   },
   header: {
-    flex: 0,
+    flex: 1,
     flexDirection: 'row',
+    flexGrow: 1,
   },
   text: {
     fontSize: 24,
@@ -29,7 +31,7 @@ const styles = StyleSheet.create({
     borderRadius: 4,
   },
   details: {
-    marginLeft: '20px'
+    marginLeft: 20
   }
 });
 
@@ -39,23 +41,23 @@ const RepositoryItem = ({ person }) => {
       <View style={styles.header}>
         <Image
           style={styles.tinyLogo}
-          source={person.ownerAvatarUrl}
+          source={{uri: person.ownerAvatarUrl}}
         />
-        <View style={{flex: 1, flexShrink: 2, marginTop: '5px', marginLeft: '15px'}}>
+        <View style={{flex: 1, flexShrink: 2, marginTop: 5, marginLeft: 15}}>
           <Text fontWeight="bold">
             {person.fullName}
           </Text>
-          <Text color='textSecondary' fontSize='subheading' style={{marginTop: '10px'}}>
+          <Text color='textSecondary' fontSize='subheading' style={{marginTop: 10}}>
             {person.description}
           </Text>
-          <View style={{flexDirection: 'row', marginTop: '5px'}}>
+          <View style={{flexDirection: 'row', marginTop: 5}}>
             <Text style={styles.tag}>
               {person.language}
             </Text>
         </View>
         </View>
       </View>
-      <View style={{flex: 1, flexShrink: 2, flexDirection:'row', justifyContent: 'space-between', marginTop: '20px', marginLeft: '20px', marginRight: '50px'}}>
+      <View style={{flex: 1, flexShrink: 2, flexDirection:'row', justifyContent: 'space-between', marginTop: 20, marginLeft: 20, marginRight: 50}}>
       <Details value={person.stargazersCount} label={'Stars'} />
       <Details value={person.forksCount} label={'Forks'} />
       <Details value={person.reviewCount} label={'Reviews'} />
